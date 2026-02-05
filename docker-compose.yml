@@ -59,11 +59,11 @@ services:
       - KeycloakAdmin__AdminUsername=admin
       - KeycloakAdmin__AdminPassword=admin
       # Branding (override to customize for your property)
-      # - Branding__CompanyName=Lempäälä Spa
-      # - Branding__CompanyLegalName=Lempäälä Spa Oy
-      # - Branding__Tagline=Hotel & Wellness Center
-      # - Branding__Address=Kylpyläntie 1, 37500 Lempäälä
-      # - Branding__Email=info@lempaalaspa.fi
+      # - Branding__CompanyName=Hotel PMS 
+      # - Branding__CompanyLegalName=Hotel PMS Oy
+      # - Branding__Tagline=Hotel Property Management System
+      # - Branding__Address=hotel street 123, 00100 Helsinki, Finland
+      # - Branding__Email=pms@example.com
       # - Branding__Phone=+358 3 123 4567
       # - Branding__TaxId=1234567-8
       # - Branding__BankName=Nordea Finland

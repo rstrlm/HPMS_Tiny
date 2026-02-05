@@ -106,11 +106,11 @@ All branding is configurable via environment variables or `appsettings.json`. Th
 
 | Variable | Default | Description |
 |---|---|---|
-| `Branding__CompanyName` | Lempäälä Spa | Display name in UI and invoices |
-| `Branding__CompanyLegalName` | Lempäälä Spa Oy | Legal entity name on invoices |
-| `Branding__Tagline` | Hotel & Wellness Center | Shown in sidebar and loading screen |
-| `Branding__Address` | Kylpyläntie 1, 37500 Lempäälä | Invoice address |
-| `Branding__Email` | info@lempaalaspa.fi | Contact email on invoices |
+| `Branding__CompanyName` | Hotel PMS | Display name in UI and invoices |
+| `Branding__CompanyLegalName` | Hotel PMS Oy | Legal entity name on invoices |
+| `Branding__Tagline` | Hotel PMS System | Shown in sidebar and loading screen |
+| `Branding__Address` | PMS System | Company address in UI and invoices | Invoice address |
+| `Branding__Email` | info@pms.example.com | Contact email on invoices |
 | `Branding__Phone` | +358 3 123 4567 | Contact phone on invoices |
 | `Branding__TaxId` | 1234567-8 | Tax/VAT ID on invoices |
 | `Branding__BankName` | Nordea Finland | Bank name on invoices |

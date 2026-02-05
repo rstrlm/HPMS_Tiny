@@ -1,7 +1,7 @@
 {
   "realm": "pms",
   "enabled": true,
-  "displayName": "Lempäälä Spa PMS",
+  "displayName": "Hotel PMS",
   "sslRequired": "external",
   "registrationAllowed": false,
   "loginWithEmailAllowed": true,
@@ -135,7 +135,7 @@
     {
       "username": "manager",
       "enabled": true,
-      "email": "manager@lempaalaspa.fi",
+      "email": "manager@pms.example.com",
       "firstName": "Test",
       "lastName": "Manager",
       "credentials": [
@@ -150,7 +150,7 @@
     {
       "username": "frontdesk",
       "enabled": true,
-      "email": "frontdesk@lempaalaspa.fi",
+      "email": "frontdesk@pms.example.com",
       "firstName": "Test",
       "lastName": "Frontdesk",
       "credentials": [
@@ -165,7 +165,7 @@
     {
       "username": "cleaner",
       "enabled": true,
-      "email": "cleaner@lempaalaspa.fi",
+      "email": "cleaner@pms.example.com",
       "firstName": "Test",
       "lastName": "Cleaner",
       "credentials": [
@@ -180,7 +180,7 @@
     {
       "username": "maintenance",
       "enabled": true,
-      "email": "maintenance@lempaalaspa.fi",
+      "email": "maintenance@pms.example.com",
       "firstName": "Test",
       "lastName": "Maintenance",
       "credentials": [
@@ -195,7 +195,7 @@
     {
       "username": "therapist",
       "enabled": true,
-      "email": "therapist@lempaalaspa.fi",
+      "email": "therapist@pms.example.com",
       "firstName": "Test",
       "lastName": "Therapist",
       "credentials": [
