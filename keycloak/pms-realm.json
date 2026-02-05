@@ -1,7 +1,7 @@
 {
   "realm": "pms",
   "enabled": true,
-  "displayName": "Lempäälä Spa PMS",
+  "displayName": "Hotel PMS",
   "sslRequired": "external",
   "registrationAllowed": false,
   "loginWithEmailAllowed": true,
