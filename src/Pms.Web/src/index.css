@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --surface: #f5f7fb;
+  --surface-raised: #ffffff;
+  --surface-dark: #0f172a;
+  --accent: #0f766e;
+  --accent-strong: #0e4f50;
+  --accent-soft: #c7f0ee;
+  --ink: #0b1020;
+  --ink-soft: #3b4252;
+  --muted: #6b7280;
+  --ember: #f97316;
+  --ember-soft: #fed7aa;
+  --border: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui;
+  color: var(--ink);
+  background: linear-gradient(140deg, #e8edf7 0%, #f9fbff 55%, #eef2f6 100%);
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(15, 118, 110, 0.25);
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+}
+
+@media (max-width: 960px) {
+  .app-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+}
+
+.glass {
+  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.animate-enter {
+  animation: enter 520ms ease both;
+}
+
+.animate-stagger > * {
+  animation: enter 520ms ease both;
+}
+
+.animate-stagger > *:nth-child(2) {
+  animation-delay: 60ms;
+}
+
+.animate-stagger > *:nth-child(3) {
+  animation-delay: 120ms;
+}
+
+.animate-stagger > *:nth-child(4) {
+  animation-delay: 180ms;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
